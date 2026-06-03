@@ -110,9 +110,3 @@ function ChatLayout() {
     </div>
   );
 }
-
-export function useChatThreads() {
-  // exported for child to refresh; uses event
-}
-export type { Thread };
-export { useParams };
